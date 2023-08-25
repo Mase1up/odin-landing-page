@@ -12,24 +12,44 @@
     I'm using 4 divs with height: 25vw already */
 }
 
+/* Taking this out because I think it's going too far,
+and causings issues.  Going to manually flex elements
 .container div {
+    display: flex;
     height: 25vw;
     width: 100vw;
-}
+}  */
 
-.header {
+.header-container {
     background-color: #1f2937;
+    color: #fff;
+    height: 25vw;
+    display: flex;
+    flex-direction: column;
 }
 
-.content {
+.logo-and-links {
+    display: flex;
+}
+
+.header-logo {
+
+}
+
+.header-links {
+display: flex;
+
+}
+
+.content-container {
     background-color: #fff;
 }
 
-.quotes {
+.quotes-container {
     background-color: #e5e7eb;
 }
 
-.footer {
+.footer-container {
     background-color: #666;
     /* Color wrong for now just to see it better #fff at end */
 }
