@@ -4,3 +4,33 @@
     box-sizing: border-box;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vw;
+    /* Not positive this 100vw is required since
+    I'm using 4 divs with height: 25vw already */
+}
+
+.container div {
+    height: 25vw;
+    width: 100vw;
+}
+
+.header {
+    background-color: #1f2937;
+}
+
+.content {
+    background-color: #fff;
+}
+
+.quotes {
+    background-color: #e5e7eb;
+}
+
+.footer {
+    background-color: #666;
+    /* Color wrong for now just to see it better #fff at end */
+}
+
