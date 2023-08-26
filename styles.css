@@ -34,3 +34,7 @@
     display: flex;
 }
 
+.link-2,
+.link-3 {
+    margin-left: 10px;
+}
