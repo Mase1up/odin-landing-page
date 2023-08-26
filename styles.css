@@ -4,53 +4,30 @@
     box-sizing: border-box;
 }
 
-.container {
+.logo-and-links-container {
+    background-color: #1f2937;
+    color: #f9faf8;
+
     display: flex;
-    flex-direction: column;
-    height: 100vw;
-    /* Not positive this 100vw is required since
-    I'm using 4 divs with height: 25vw already */
+    justify-content: center;
+    padding: 0 15vw;
+    /* Not sure if I need it centered */
 }
 
-/* Taking this out because I think it's going too far,
-and causings issues.  Going to manually flex elements
-.container div {
-    display: flex;
-    height: 25vw;
-    width: 100vw;
-}  */
-
-.header-container {
-    background-color: #1f2937;
-    color: #fff;
-    height: 25vw;
-    display: flex;
-    flex-direction: column;
+.logo-and-links div {
+    border: 1px solid white;
 }
 
 .logo-and-links {
     display: flex;
-}
-
-.header-logo {
-
+    justify-content: space-between;
+    width: 900px;
+    /* Without this width, the flex items
+    were centered in the page with no spacing.
+    I don't quite understand why exactly. */
 }
 
 .header-links {
-display: flex;
-
-}
-
-.content-container {
-    background-color: #fff;
-}
-
-.quotes-container {
-    background-color: #e5e7eb;
-}
-
-.footer-container {
-    background-color: #666;
-    /* Color wrong for now just to see it better #fff at end */
+    display: flex;
 }
 
