@@ -21,10 +21,13 @@
 .logo-and-links {
     display: flex;
     justify-content: space-between;
-    width: 900px;
+    width: 100vw;
     /* Without this width, the flex items
     were centered in the page with no spacing.
-    I don't quite understand why exactly. */
+    I don't quite understand why exactly. 
+    
+    Rather than using discrete 900px, I think
+    I prefer using 100vw, then I can use padding */
 }
 
 .header-links {
