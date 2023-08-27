@@ -41,14 +41,14 @@
 }
 
 .header-content-container {
-    border: 1px solid #fff; /* For debugging */
+    /* border: 1px solid #fff; For debugging */
     height: 25vw;
     display: flex;
     justify-content: center;
 }
 
 .header-content div {
-    border: 1px solid #fff; /* For debugging */
+    /* border: 1px solid #fff;  For debugging */
 }
 
 .header-content {
@@ -83,6 +83,10 @@
 .header-text-body {
     font-size: 14px;
     color: #e5e7eb;
+}
+
+.header-button {
+    margin-top: 10px;
 }
 
 button {
