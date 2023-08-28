@@ -165,3 +165,16 @@ enough, and work toward nailing it later. */
     padding: 0 5vw;
 
 }
+
+.quote {
+    font-style: italic;
+    font-size: 18px;
+    color: #1f2937;
+}
+
+.quote-signature {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: small;
+}
+
