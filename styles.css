@@ -10,13 +10,14 @@
     color: #f9faf8;
 
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     padding: 0 5vw;
-    /* Not sure if I need it centered */
+    /* Not sure if I need it centered.
+       I didn't. */
 }
 
 .logo-and-links div {
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 
 .logo-and-links {
