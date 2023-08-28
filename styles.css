@@ -98,3 +98,26 @@ button {
     border-radius: 5px;
 
 }
+
+button:hover {
+    background-color: #f9faf8;
+    color: #1f2937;
+}
+
+.random-info-container {
+    display: flex;
+    justify-content: center;
+    height: 25vw;
+}
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.random-info-header {
+    color: #1f2937;
+    font-weight: bolder;
+    padding: 15px;
+}
+
