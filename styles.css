@@ -106,8 +106,10 @@ button:hover {
 
 .random-info-container {
     display: flex;
-    justify-content: center;
     height: 25vw;
+    width: 100vw;
+    padding: 0 5vw;
+
 }
 
 .random-info {
@@ -119,5 +121,37 @@ button:hover {
     color: #1f2937;
     font-weight: bolder;
     padding: 15px;
+    align-self: center;
 }
 
+.random-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    /* I'm not getting these to move at all.
+    I think it has to do with a parent container not 
+    having been given a proper height/width property,
+    but I'm really not sure at the moment. */
+
+}
+
+.random-image {
+    display: flex;
+    flex-direction: column;;
+}
+
+.image {
+    border: 2px solid #3882f6;
+    height: 75px;
+    width: 75px;
+    border-radius: 5px;
+}
+
+.caption {
+    font-size: 12px;
+    color: #1f2937;
+}
+
+/* I'm not getting it perfect, but start with close
+enough, and work toward nailing it later. */
